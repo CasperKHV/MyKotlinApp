@@ -1,4 +1,9 @@
 <resources>
     <string name="app_name">MyKotlinApp</string>
     <string name="new_note_title">Новая заметка</string>
+    <string name="logout_menu_title">Выход</string>
+    <string name="logout_dialog_title">Выйти из аккаунта?</string>
+    <string name="logout_dialog_message">Все ваши заметки будут сохранены.</string>
+    <string name="ok_btn_title">Ок</string>
+    <string name="logout_dialog_cancel">Отмена</string>
 </resources>

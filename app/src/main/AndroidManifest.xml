@@ -10,7 +10,8 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyKotlinApp">
         <activity
-            android:name=".ui.main.MainActivity"
+            android:name=".ui.splash.SplashActivity"
+            android:theme="@style/SplashTheme"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -19,6 +20,7 @@
             </intent-filter>
         </activity>
 
+        <activity android:name=".ui.main.MainActivity"/>
         <activity android:name=".ui.note.NoteActivity"/>
     </application>
 
